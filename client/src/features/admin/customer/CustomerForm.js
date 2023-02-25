@@ -176,10 +176,6 @@ const CustomerForm = () => {
                     ? true
                     : false
                 }
-
-                // helperText={
-                //   touched?.name && touched?.name.first && errors?.name?.first
-                // }
               />
             </Grid>
             <Grid item xs={12} md={6}>
@@ -196,9 +192,6 @@ const CustomerForm = () => {
                     ? true
                     : false
                 }
-                // helperText={
-                //   touched?.name && touched?.name.last && errors?.name?.last
-                // }
               />
             </Grid>
             <Grid item xs={12}>
