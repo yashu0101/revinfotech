@@ -5,7 +5,7 @@ require("dotenv").config(); //add variable from .env file
 
 require("./v1/models/db");
 
-const port = process.env.PORT || 8888;
+const port = process.env.PORT || 2020;
 
 const app = express();
 
